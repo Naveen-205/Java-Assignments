@@ -11,6 +11,7 @@ public class Task10 {
 			System.out.println("Enter Mobile Number:");
 			number = sc.next();
 		}while(number.length() != 10);
+		
 		System.out.println("Mobile Accepted");
 		
 		sc.close();
