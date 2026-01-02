@@ -2,10 +2,11 @@ package first.index;
 
 public class Static_Task {
 	
-	static String course = "FullStack";
+	static String course = "Java FullStack";
 	
 	public static void main (String [] args) {
-		Static_Task.course = "JAVA FullStack";
-		System.out.println(course);
+
+		System.out.println(Static_Task.course);
+		
 		}
 }
